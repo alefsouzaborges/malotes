@@ -1,0 +1,132 @@
+.bg-color-bg{
+	background-color: #292d96;
+	color: #fff;
+}
+.btn-color-bg{
+	background-color: #292d96;
+	color: #fff;
+}
+.btn-color-bg:hover{
+	background-color: #3337A4;
+	color: #fff;
+}
+.bg-body-image{
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+}
+.text-color{
+	color: #292d96;
+}
+.valida-usuario{
+	position: relative;
+	bottom: 10px;color: red;
+	font-weight: 600
+}
+.nav-border-shadow-bottom{
+	z-index: 1;
+	box-shadow: 0 0 2px 3px #0C107D;
+}	
+.nav-border-shadow-left{
+	z-index: 0;
+	box-shadow: 2px 0px 0px 1px #0C107D;
+}
+.form-login-mt{
+	margin-top: 30px;
+}
+.form-titulo-login{
+	font-size: 30px;
+	color: #292d96;
+	text-align: center;
+	margin-top: 28px;
+}
+.form-titulo-login span{
+	font-weight: 600
+}
+.box-form{
+	width: 300px;
+	height: 310px;
+	margin: auto;
+	margin-top: 160px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 1px 4px 1px #ccc;
+	transition: .4s;
+}
+.box-form:hover{
+	box-shadow: 0px 1px 4px 4px #ccc;
+	transition: .4s;
+	cursor: pointer;
+}
+.box-form-cad-usuarios{
+	width: 600px;
+	padding: 4px;
+	margin-top: 70px;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 5px;
+	transition: .4s;
+	color: #fff;
+}
+.text-cadastrar{
+	position: relative;
+	bottom: 50px;
+	font-weight: 400;
+	color: #292d96;
+}
+.card-dash{
+	width: 200px;
+	height: 100px;
+	border-radius: 7px;
+	border: 1px solid #fff;
+}
+.card-dash:hover{
+	width: 200px;
+	height: 100px;
+	border-radius: 7px;
+	background-color: #1171D9;
+	cursor: pointer;
+}
+.card-dash h1{
+	font-size: 25px; 
+	position: relative;
+	top: 10px;
+}
+.box-form-lancar-malote{
+	width: 900px;
+	padding: 4px;
+	margin-top: 70px;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 5px;
+	transition: .4s;
+	color: #fff;
+}
+.box-form-listar-usuarios{
+	width: 1150px;
+	padding: 4px;
+	margin-top: 30px;
+	/*background-color: rgba(0,0,0,0.1);*/
+	border-radius: 5px;
+	transition: .4s;
+	color: #fff;
+}
+.box-form-filtro{
+	width: 1120px;
+	padding: 4px;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 5px;
+	transition: .4s;
+	color: #fff;
+}
+table td:hover{
+	cursor: pointer;
+}
+table a{
+	text-decoration: none;
+	color: #000;
+}
+table a:hover{
+	text-decoration: none;
+	color: #292d96;
+}
+table td{
+	align-items: center;
+}
